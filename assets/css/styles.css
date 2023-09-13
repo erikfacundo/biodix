@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;1,600&display=swap");
+:root {
+  --primary: #dbccbe;
+  --primario-accent: #3e2a25;
+  --rosa: #e47a8e;
+  --celeste: #32c0d1;
+
+}
+
+/* RESET */
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+p {
+  margin-bottom: 0;
+}
+.bg {
+  background-color: var(--primary);
+}
+.body {
+  margin: 0 auto;
+  max-width: 1390px;
+  font-family: "Poppins", sans-serif;
+}
+h2{
+  color: var(--primario-accent);
+  font-weight: 500;
+}
+h1 {
+  font-size: clamp(1rem, 6vw + 0.5rem, 2rem);
+  color: var(--primario-accent);
+  font-weight: 600;
+}
+h2 {
+  font-size: 2rem;
+}
+/*
+*/
+.card{
+  margin: auto;
+  background-color: var(--rosa);
+  width: 486px;
+  height: 168px;
+  align-items: center;
+  border-radius: 20px;
+  border: none;
+}
+
+.img__logo {
+  width: 100%;
+  object-fit: cover;
+}  
+
+.card-img{
+  width: 170px;
+  height: 220px;
+}
+
+.list-card{
+  font-size: 14px;
+  margin-right: 45px;
+}
+
+.second-button{
+  position:relative;
+  padding: 25px;
+
+}
+
+.form-footer{
+  color: var(--primario-accent);
+
+}
+
+.bg-footer{
+  background-color: #422620;
+}
+
+@media (min-width: 739px) {
+  .redes {
+    padding-right: 4rem;
+  }  
+  .img__producto {
+    width: 600px;
+  }  
+}  
+
+@media (min-width: 1100px) {
+  .redes {
+    padding-right: 6rem;
+  }  
+  .img__producto {
+    margin-top: -310px;
+    width: 950px;
+  }  
+  .w-lg-50 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    max-width: 50%;
+  }  
+  h1 {
+    width: 80%;
+  }  
+  ul li p {
+    font-size: 1.1rem;
+    width: 75%;
+  }  
+}  
+
+#buttons {
+  padding: 30px 135px;
+}
+#comprar {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-color: #32c0d1;
+  border-color: #32c0d1;
+  border-radius: 10px;
+}
+
+#submit{
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-color: #e47a8e;
+  border-color: #e47a8e;
+  border-radius: 10px;
+}
+#lofs {
+  position: absolute;
+}
+.chock {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+#logo {
+  display: flex;
+  position: fixed;
+  margin-left: 50%;
+  margin-top: 6%;
+}
+
+
+
